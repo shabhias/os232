@@ -1,18 +1,29 @@
 # Log Format
 # ZCZC WEEK# MINUTES LogCode Description
 # LogCode: https://osp4diss.vlsm.org/ETC/logCodes.txt
+
+ZCZC W02 15 L01 SCELE/DISCORD related
+ZCZC W02 20 L02 Reading assignment #02
+ZCZC W02 100 L02 class 
+ZCZC W02 600 L03 Github related 
+ZCZC W02 3100 L04 take a rest
+ZCZC W02 300 L05 Assignment #02
+ZCZC W02 30 L10 TXT/mylog.txt related
+ZCZC W02 40 L15 gaming
+ZCZC W02 300 L20 do homework
+ZCZC W01 20 L00 General, etc.
+ZCZC W01 15 L01 SCELE/DISCORD related
+ZCZC W01 20 L02 Reading assignment #01
+ZCZC W01 100 L02 class
+ZCZC W01 20 L61 Install Virtual Box
+ZCZC W01 5 L62 Install Virtual Debian Guest
+ZCZC W01 100 L02 class
+ZCZC W01 60 L05 study for quiz
+ZCZC W01 10 L62 Reinstall Virtual Debian Guest
+ZCZC W01 100 L11 Assignment #01
 ZCZC W00 10 L01 SCELE/Discord related
 ZCZC W00 100 L02 CLASSROOM/ZOOM meetings related
 ZCZC W00 10 L03 Github related
 ZCZC W00 10 L04 GitHub Pages related
 ZCZC W00 60 L10 Assignment #00
-ZCZC W01 20 L00 General, etc.
-ZCZC W01 15 L01 SCELE/DISCORD related
-ZCZC W01 20 L02 Reading assignment #01
-ZCZC W01 100 L02 kuliah 
-ZCZC W01 20 L61 Install Virtual Box
-ZCZC W01 5 L62 Install Virtual Debian Guest
-ZCZC W01 100 L02 kuliah
-ZCZC W01 60 L05 belajar untuk quiz
-ZCZC W01 10 L62 Reinstall Virtual Debian Guest
-ZCZC W01 100 L11 Assignment #01
+
