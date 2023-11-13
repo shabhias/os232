@@ -29,4 +29,23 @@ These commands will help you list PCI devices, view information about your CPU, 
   - The server enters an infinite loop, waiting for a signal from the client.
   - The server does not detach or delete the shared memory while waiting for the client to finish its work.
 
+<br>
+<hr>
+
+## WEEK 7
+* [Process Synchronization](https://www.youtube.com/watch?v=ph2awKa8r5Y&list=PLBlnK6fEyqRjDf_dmCEXgl6XjVKDDj0M2)---
+1. Introduction to Process Synchronization: The video introduces the concept of process synchronization, emphasizing its crucial role in maintaining data consistency among cooperating processes in an operating system.
+
+2. Cooperating Processes: Processes that can affect or be affected by others in the system are termed cooperating processes, which can share either a logical address space or data through files or messages.
+
+3. Data Inconsistency Problem: The primary issue addressed is the potential for data inconsistency when multiple processes concurrently access shared data, leading to unpredictable outcomes.
+
+4. Race Conditions: The concept of race conditions is explained, wherein several processes accessing and manipulating the same data concurrently can result in an unpredictable final outcome dependent on the order of access.
+
+5. Illustrative Example - Bounded Buffers: The lecture employs the example of the producer-consumer problem within bounded buffers to illustrate how concurrent execution can lead to incorrect data values.
+
+6. Importance of Process Synchronization: The video emphasizes the need for process synchronization to prevent race conditions, ensuring the orderly execution of cooperating processes and maintaining data consistency.
+
+7. Objective of the Lecture Series: The video concludes by stating its objective — to delve into various mechanisms that facilitate orderly execution among cooperating processes that share a logical address space.
+
 
