@@ -1,6 +1,16 @@
 # Log Format
 # ZCZC WEEK# MINUTES LogCode Description
 # LogCode: https://osp4diss.vlsm.org/ETC/logCodes.txt
+ZCZC W10 405 L03 task, study (everyday in one week)
+ZCZC W10 50 L04 Review Paper
+ZCZC W10 300 L05 Reading OS and do Assignment Week 10
+ZCZC W10 30 L06 GAMING
+ZCZC W10 40 L07 Golf
+ZCZC W10 120 L09 Hangout
+ZCZC W10 30 L10 Petting
+ZCZC W10 300 Sleep (everyday in one week)
+ZCZC W10 50 L11 Event
+ZCZC W10 100 L12 Discord Related
 ZCZC W09 100 L01 SCELE/DISCOR related
 ZCZC W09 450 L03 task, study (everyday in one week)
 ZCZC W09 100 L04 Review Paper
