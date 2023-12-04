@@ -48,4 +48,27 @@ These commands will help you list PCI devices, view information about your CPU, 
 
 7. Objective of the Lecture Series: The video concludes by stating its objective — to delve into various mechanisms that facilitate orderly execution among cooperating processes that share a logical address space.
 
+<br>
+<hr>
+
+## WEEK 9
+
+* [The Linux File System](https://www.youtube.com/watch?v=995-SYn6960)---
+quick overview of essential Linux file system directories for developers in under four minutes. He starts with the "bin" directory, housing basic binaries like LS and RM, which are typically found in "user bin" on modern systems. The "sbin" directory contains applications for superuser use, emphasizing the importance of careful execution due to its elevated privileges. The "usr" directory, historically the home directory, now contains shared resources like binaries in "user local bin." The "opt" directory is designated for optional software installations, offering an alternative to the user bin folder. "Etc" holds system-wide configuration files, and the "home" directory is where user-specific personal files are stored. Other directories, including "boot," "lib," "root," "tmp," "var," "dev," "media," and "mount," are briefly explained with their respective functions in the Linux file system.
+
+
+## WEEK 10
+
+* [What is Programmed I/O: How the CPU communicates with other hardware](https://www.youtube.com/watch?v=VlhT13nkxFw)---
+
+1. Programmed I/O (Input/Output) is a fundamental strategy for managing communication between the CPU and I/O devices. 
+2. It involves using addressing similar to that of memory, with I/O controllers having an I/O address register and I/O data register.
+3. Information is transferred one word at a time, with the word size depending on the architecture (e.g., 64 bits for a 64-bit machine).
+4. The address space for I/O is limited by the size of the I/O address registers and operands for instructions.
+5. While the address space is smaller than that of memory, it is typically sufficient due to fewer I/O devices.
+6. Programmed I/O demands the full attention of the CPU during execution, making it a slow process.
+7. Input from devices like keyboards requires the CPU to wait, and the speed depends on factors like device responsiveness.
+8. Despite its slowness, programmed I/O is commonly used for tasks like keyboard input and communication with I/O controllers.
+9. Programmed I/O is essential for setting up later, faster I/O methods, such as Direct Memory Access (DMA).
+10.In the programmed I/O process, the CPU puts the operand (e.g., I/O device address) into the I/O address register, retrieves data from the device's buffer, and processes it in the CPU, typically by storing it in a general-purpose register like the accumulator.
 
